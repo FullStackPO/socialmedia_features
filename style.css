@@ -16,7 +16,7 @@ main{
     justify-content: center;
 }
 .phone{
-    height: 550px;
+    height: 600px;
     width: 350px;
     background-color: white;
     border-radius: 10px;
@@ -33,10 +33,11 @@ main{
     height: 200px;
     width: 100%;
     overflow: hidden;
-    background-color: blue;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 .card img{
     height: 150px;
@@ -45,7 +46,7 @@ main{
     border-radius: 50%;
 }
 .postcard{
-    height: 224px;
+    height: 274px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -55,4 +56,30 @@ main{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    object-position: center;
+}
+.friend>p{
+    padding-left: 5px;
+}
+.like-post>p{
+    padding-left: 5px;
+}
+.text{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.text>button{
+    background-color: rgb(89, 89, 255);
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+.text>button:active{
+    scale: 0.95;
 }
