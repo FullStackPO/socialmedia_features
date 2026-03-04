@@ -44,7 +44,7 @@ main{
     border-radius: 50%;
 }
 .postcard{
-    height: 274px;
+    height: 270px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -103,7 +103,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap:8px;
+    gap:10px;
 }
 .story{
     height:90px;
@@ -115,4 +115,15 @@ main{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-radius: 10px;
+}
+.full_screen{
+    height:100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: 5;
+    display: none;
+    border-radius: 10px;
 }
